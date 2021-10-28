@@ -1,0 +1,25 @@
+This is a little command line program to convert s2s graphql schemas into real graphql schemas.
+
+To run the program:
+[source,bash]
+----
+node . input_s2s_schema > output_graphql_schema
+----
+
+To install the program:
+[source,bash]
+----
+npm install -g .
+----
+
+To run:
+[source,bash]
+----
+gqls2s
+----
+
+To uninstall:
+[source,bash]
+----
+npm uninstall -g gqls2s-cli
+----

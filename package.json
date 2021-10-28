@@ -1,0 +1,17 @@
+{
+  "name": "gqls2s-cli",
+  "version": "1.0.0",
+  "description": "A command line tool to transpile between GraphQL extended fromat as supported by graphql-s2s and GraphQL standard format",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "gqls2s": "./bin/index.js"
+  },
+  "dependencies": {
+    "graphql-s2s": "^0.20.2"
+  }
+}
